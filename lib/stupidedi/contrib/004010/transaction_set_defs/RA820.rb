@@ -14,7 +14,7 @@ module Stupidedi
           d::TableDef.header("Table 1 - Header",
             s:: ST.use( 10, r::Mandatory, d::RepeatCount.bounded(1)),
             s::BPR.use( 20, r::Mandatory, d::RepeatCount.bounded(1)),
-            s::NTE.use(30, r::Optional, d::RepeatCount.bounded(1)),
+            s::NTE.use(30, r::Optional, d::RepeatCount.bounded(3)),
             s::TRN.use(35, r::Optional, d::RepeatCount.bounded(1)),
             s::REF.use( 50, r::Optional, d::RepeatCount.bounded(5)),
             s::DTM.use( 60, r::Optional,  d::RepeatCount.bounded(1)),
